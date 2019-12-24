@@ -17,6 +17,7 @@
     </properties>
 
     <modules>
+        <module>susufile/common</module>
         <module>susufile/client</module>
         <module>susufile/server</module>
     </modules>
