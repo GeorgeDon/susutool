@@ -6,12 +6,12 @@
 		<groupId>pers.georgedon</groupId>
 		<artifactId>susutools</artifactId>
 		<version>0.0.1</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath>../../pom.xml</relativePath>
 	</parent>
 	<groupId>pers.georgedon</groupId>
-	<artifactId>susufile</artifactId>
+	<artifactId>susufile-server</artifactId>
 	<version>0.0.1</version>
-	<name>susufile</name>	
+	<name>susufile-server</name>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -20,7 +20,11 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter</artifactId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
 
 		<dependency>
@@ -32,6 +36,10 @@
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>io.netty</groupId>
+			<artifactId>netty-all</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

@@ -1,13 +1,13 @@
-package pers.georgedon.susutools;
+package pers.georgedon.susufile;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SusutoolsApplication {
+public class SusufileApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SusutoolsApplication.class, args);
+		SpringApplication.run(SusufileApplication.class, args);
 	}
 
 }

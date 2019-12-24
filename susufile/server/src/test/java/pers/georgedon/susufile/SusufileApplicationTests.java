@@ -1,10 +1,10 @@
-package pers.georgedon.susutools;
+package pers.georgedon.susufile;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SusutoolsApplicationTests {
+class SusufileApplicationTests {
 
 	@Test
 	void contextLoads() {
