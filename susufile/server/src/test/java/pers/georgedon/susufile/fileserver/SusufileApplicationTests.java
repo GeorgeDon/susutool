@@ -1,4 +1,4 @@
-package pers.georgedon.susufile;
+package pers.georgedon.susufile.fileserver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
